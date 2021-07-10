@@ -38,7 +38,9 @@ function App() {
         return state;
     }
   }
+  // eslint-disable-next-line no-unused-vars
   const [data, dispatch] = useReducer(reducer, tableData);
+
   return (
     <div style={{ maxWidth: '100vw' }}>
       <MaterialTable
